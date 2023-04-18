@@ -11,7 +11,7 @@
         android:layout_width="330dp"
         android:layout_height="45dp"
         android:gravity="center"
-        android:text="TextView"
+        android:hint="Здесь будет расстояние"
         android:textSize="21sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,36 +27,11 @@
         android:layout_height="45dp"
         android:layout_marginTop="35dp"
         android:gravity="center"
-        android:text="TextView"
+        android:hint="Здесь будет скорость"
         android:textSize="21sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvDistance" />
 
-    <TextView
-        android:id="@+id/tvStatusGPS"
-        android:layout_width="330dp"
-        android:layout_height="45dp"
-        android:text="TextView"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="21sp"
-        android:layout_marginTop="35dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvVelocity" />
-
-    <TextView
-        android:id="@+id/tvStatusNet"
-        android:layout_width="330dp"
-        android:layout_height="45dp"
-        android:text="TextView"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="21sp"
-        android:layout_marginTop="35dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvStatusGPS" />
 </androidx.constraintlayout.widget.ConstraintLayout>

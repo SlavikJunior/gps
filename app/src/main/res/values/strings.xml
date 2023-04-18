@@ -1,6 +1,4 @@
 <resources>
     <string name="app_name">Trial app version 1.0</string>
     <string name="provider_gps">GPS</string>
-    <string name="provider_network">Network</string>
-    <string name="location_settings">Location settings</string>
 </resources>

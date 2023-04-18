@@ -12,8 +12,6 @@ import java.nio.Buffer;
 
 public class MyLocListener implements LocationListener {
     private LocInterfaceListener LocInterfaceListener;
-    private TextView tvStatusGPS;
-    private TextView tvStatusNet;
 
     @Override
     public void onLocationChanged(Location location) {
@@ -22,11 +20,6 @@ public class MyLocListener implements LocationListener {
 
     @Override
     public void onStatusChanged(String provider, int status, Bundle extras) {
-        if (provider.equals(LocationManager.GPS_PROVIDER)) {
-            tvStatusGPS.setText("Status: " + String.valueOf(status));
-        } else if (provider.equals(LocationManager.NETWORK_PROVIDER)) {
-            tvStatusNet.setText("Status: " + String.valueOf(status));
-        }
     }
 
     @Override
